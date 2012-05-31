@@ -29,3 +29,6 @@ filetype indent on
 colorscheme vividchalk
  
 syntax enable
+
+" Load up pathogen / plugins
+call pathogen#infect()
