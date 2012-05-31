@@ -28,17 +28,4 @@ filetype plugin on
 filetype indent on
 colorscheme vividchalk
  
-" Minibuffer Explorer Settings
-let g:miniBufExplMapWindowNavVim = 1
-let g:miniBufExplMapWindowNavArrows = 1
-let g:miniBufExplMapCTabSwitchBufs = 1
-let g:miniBufExplModSelTarget = 1
- 
-" Change which file opens after executing :Rails command
-let g:rails_default_file='config/database.yml'
-
-" Quickly edit/reload the vimrc file
-nmap <silent> <leader>ev :e $MYVIMRC<CR>
-nmap <silent> <leader>sv :so $MYVIMRC<CR>
- 
 syntax enable
