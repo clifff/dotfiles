@@ -1,1 +1,2 @@
 --type-set=coffeescript=.coffee
+--type-set=css=.scss
