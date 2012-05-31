@@ -9,3 +9,6 @@ if has("gui_macvim")
     " Set Shift-Command-T as New Tab
     macmenu &File.New\ Tab key=<D-T>
 endif
+
+" Set some useful ignores for Command-T
+:set wildignore+=public/cache/*, tmp/*, .sass-cache/
