@@ -11,4 +11,4 @@ if has("gui_macvim")
 endif
 
 " Set some useful ignores for Command-T
-:set wildignore+=public/cache/*, tmp/*, .sass-cache/
+:set wildignore+=public/cache/*,tmp/*,.sass-cache/*
