@@ -1,0 +1,7 @@
+# Ignore everything that isn't vim related...
+*
+
+# But not these files...
+!.gitignore
+!.vimrc
+!.vim/*
