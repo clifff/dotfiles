@@ -1,2 +1,3 @@
 --type-set=coffeescript=.coffee
 --type-set=css=.scss
+--ignore-dir=public/cache
