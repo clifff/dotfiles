@@ -10,5 +10,7 @@ if has("gui_macvim")
     macmenu &File.New\ Tab key=<D-T>
 endif
 
+set gfn=Inconsolate-dz:h12
+
 " Set some useful ignores for Command-T
-:set wildignore+=public/cache/*,tmp/*,.sass-cache/*
+set wildignore+=public/cache/*,tmp/*,.sass-cache/*

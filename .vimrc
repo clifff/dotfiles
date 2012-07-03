@@ -51,7 +51,14 @@ endwhile
 unlet s:windowmapnr s:wins
 
 " Files to ignore for Command-T / other listings
-:set wildignore+=*.o,*.obj,.git,public/stylesheets/**,public/cache/**
+set wildignore+=*.o,*.obj,.git,public/stylesheets/**,public/cache/**
+
+" Show whitespace
+set list listchars=tab:»·,trail:·
+" Highlight trailing/leading whitespace
+highlight ExtraWhitespace ctermbg=red guibg=red
+match ExtraWhitespace /\s\+\%#\@<!$/
+
 
 " Load up pathogen / plugins
 call pathogen#infect()
