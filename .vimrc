@@ -34,9 +34,11 @@ set ts=2
 filetype on  " Automatically detect file types.
 filetype plugin on
 filetype indent on
-colorscheme vividchalk
- 
+
+" Setup solarized scheme
 syntax enable
+set background=dark
+colorscheme solarized
 
 " Meta+1-0 jumps to tab 1-10, Shift+Meta+1-0 jumps to tab 11-20:
 let s:windowmapnr = 0
@@ -59,6 +61,8 @@ set list listchars=tab:»·,trail:·
 highlight ExtraWhitespace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+\%#\@<!$/
 
+" Highlight 80 character boundry
+set colorcolumn=81
 
 " Load up pathogen / plugins
 call pathogen#infect()

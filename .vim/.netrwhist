@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_cnt =4
 let g:netrw_dirhist_1='/usr/bin'
 let g:netrw_dirhist_2='/Users/clifff/Code/syllabus'
 let g:netrw_dirhist_3='/Users/clifff/src/rails'
+let g:netrw_dirhist_4='/Users/clifff/Code/linode_chef_solo/cookbooks/rvm'
