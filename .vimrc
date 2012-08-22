@@ -64,5 +64,9 @@ match ExtraWhitespace /\s\+\%#\@<!$/
 " Highlight 80 character boundry
 set colorcolumn=81
 
+" Show syntastic errors in location-list
+let g:syntastic_auto_loc_list=1
+let g:syntastic_auto_loc_list_height=3
+
 " Load up pathogen / plugins
 call pathogen#infect()

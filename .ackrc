@@ -1,3 +1,5 @@
 --type-set=coffeescript=.coffee
 --type-set=css=.scss
 --ignore-dir=public/cache
+--type-set=json=.json
+--type-add=js=.json
