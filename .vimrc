@@ -38,7 +38,7 @@ filetype indent on
 " Setup solarized scheme
 syntax enable
 set background=dark
-colorscheme solarized
+colorscheme Tomorrow-Night-Bright
 
 " Meta+1-0 jumps to tab 1-10, Shift+Meta+1-0 jumps to tab 11-20:
 let s:windowmapnr = 0
@@ -53,7 +53,7 @@ endwhile
 unlet s:windowmapnr s:wins
 
 " Files to ignore for Command-T / other listings
-set wildignore+=*.o,*.obj,.git,public/stylesheets/**,public/cache/**
+set wildignore+=*.o,*.obj,.git,public/stylesheets/**,public/cache/**,tmp/**
 
 " Show whitespace
 set list listchars=tab:»·,trail:·
