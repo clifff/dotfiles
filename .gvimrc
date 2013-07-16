@@ -2,10 +2,10 @@
 set guioptions-=T
 set guioptions-=m
 
-" For Commad-T, set cmd+t to that and new tab to cmd+shift+t
+" For ctrlp, set cmd+t to that and new tab to cmd+shift+t
 if has("gui_macvim")
     " Set cmd+t to the plugin
-    map <D-t> :CommandT<CR>
+    map <D-t> :CtrlP<CR>
     " Set Shift-Command-T as New Tab
     macmenu &File.New\ Tab key=<D-T>
 endif

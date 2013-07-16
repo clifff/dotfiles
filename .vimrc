@@ -52,6 +52,9 @@ while (s:windowmapnr < strlen(s:wins))
 endwhile
 unlet s:windowmapnr s:wins
 
+let g:ctrlp_map = '<D-t>'
+let g:ctrlp_cmd = 'CtrlP'
+
 " Files to ignore for Command-T / other listings
 set wildignore+=*.o,*.obj,.git,public/stylesheets/**,public/cache/**,tmp/**
 
@@ -67,6 +70,9 @@ set colorcolumn=81
 " Show syntastic errors in location-list
 let g:syntastic_auto_loc_list=1
 let g:syntastic_auto_loc_list_height=3
+
+" Load up ctrl-p
+set runtimepath^=~/.vim/bundle/ctrlp.vim
 
 " Load up pathogen / plugins
 call pathogen#infect()
